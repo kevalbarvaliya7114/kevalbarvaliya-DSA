@@ -26,5 +26,5 @@ int main()
     printf("Value of B is:\ndata: %d,char: %c\n",b.ptr->data,b.ptr->ch);
 
     a.p = &c;
-    printf("%d",*(a.p));
+    printf("%d\n",*(a.p));
 }
